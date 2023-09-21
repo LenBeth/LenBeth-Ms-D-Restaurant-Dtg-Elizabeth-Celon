@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Allura', cursive;
+
+}
+
+body {
+    background-color: rgba(219, 218, 218, 0.719);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: smaller;
+}
+
+nav{
+   background-color: rgb(206, 203, 203);
+}
+
+label.logo{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    line-height:60px;
+    padding: 0 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display:inline-block;
+    line-height: 60px;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+a.active,a:hover{
+    background-color: rgb(211, 201, 194);
+    transition: all 0.2s;
+}
+
+
+.phonecall{
+    position: absolute;
+    top: 33%;
+    left: 13%;
+    height: 22vh;
+}
+
+.Gmail {
+    position: absolute;
+    top: 33%;
+    left: 45%;
+    height: 22vh;
+}
+
+.Social {
+    position: absolute;
+    top: 33%;
+    left: 75%;
+    height: 22vh;
+}
+
+
+h1{
+    color: rgb(63, 62, 61);
+    font-family: 'Tajawal';
+    position: absolute;
+    top: 56%;
+    left: 16%;
+    font-size: 15px;
+}
+
+h2 {
+    color: rgb(63, 62, 61);
+    font-family: 'Tajawal';
+    position: absolute;
+    top: 56%;
+    left: 49%;
+    font-size: 15px;
+}
+
+h3{
+    color: rgb(63, 62, 61);
+    font-family: 'Tajawal';
+    position: absolute;
+    top: 56%;
+    left: 77%;
+    font-size: 15px;
+}
+

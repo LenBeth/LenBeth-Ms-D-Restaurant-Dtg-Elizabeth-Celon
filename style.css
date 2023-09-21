@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Allura', cursive;
+
+}
+
+body {
+    background-image: url(download.png); 
+    background-size: cover;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: smaller;
+}
+
+nav{
+   background-color: rgba(0, 0, 0, 0.281);
+}
+
+label.logo{
+    color: rgb(202, 198, 193);
+    font-size: 25px;
+    line-height:60px;
+    padding: 0 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 550px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display:inline-block;
+    line-height: 60px;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(228, 226, 223);
+    font-size: 15px;
+}
+
+a.active,a:hover{
+    background-color: rgb(211, 201, 194);
+    transition: all 0.2s;
+}
+
+.header h1{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+}
+.header h2{
+    position: absolute;
+    top: 40%;
+    left: 21%;
+    transform: translate(-50%,-50%);
+}
+.header h3{
+    position: absolute;
+    top: 40%;
+    left: 33.5%;
+    transform: translate(-50%,-50%);
+}
+.header h1 {
+    font-size: 55px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(13, 7, 97);
+}
+
+.header h2 {
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(172, 5, 5);
+}
+
+.header h3 {
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(185, 184, 73); 
+}
+
+.header p{
+    position: absolute;
+    top: 51%;
+    left: 26.5%;
+    transform: translate(-50%,-50%);
+}
+
+.header p {
+    font-size: 14px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(219, 219, 207);
+}
+
+p {
+    line-height: 2 ;
+  }
+

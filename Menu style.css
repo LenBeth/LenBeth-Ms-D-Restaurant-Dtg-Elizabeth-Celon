@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Allura', cursive;
+
+}
+
+body {
+    background-color: rgb(155, 129, 98, 0.795); 
+    background-size: cover;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: smaller;
+}
+
+nav{
+   background-color: rgba(155, 129, 98, 0.795);
+}
+
+label.logo{
+    color: rgb(7, 7, 7);
+    font-size: 25px;
+    line-height:60px;
+    padding: 0 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display:inline-block;
+    line-height: 60px;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(3, 3, 3);
+    font-size: 15px;
+}
+
+a.active,a:hover{
+    background-color: rgb(211, 222, 198);
+    transition: all 0.2s;
+}
+
+.img_edg{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    height: 40vh;
+    width: auto;
+}
