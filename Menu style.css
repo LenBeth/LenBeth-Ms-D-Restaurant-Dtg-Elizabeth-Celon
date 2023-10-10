@@ -56,3 +56,47 @@ a.active,a:hover{
     height: 40vh;
     width: auto;
 }
+
+.img_deg{
+    position: absolute;
+    top: 20%;
+    left: 39%;
+    height: 65vh;
+    width: auto;
+}
+
+.img_ged{
+    position: absolute;
+    top: 20%;
+    left: 69%;
+    height: 65vh;
+    width: auto;
+}
+
+p{
+    font-family: 'Tajawal', sans-serif;
+    font-weight:normal;
+    font-size: 17px;
+    position: absolute;
+    top: 87% ;
+    left: 15%;
+    color: black;
+}
+
+h2{
+    font-family: 'Tajawal', sans-serif;
+    font-weight:normal;
+    font-size: 17px;
+    position: absolute;
+    top: 87% ;
+    left: 46%;
+}
+
+h3{
+    font-family: 'Tajawal', sans-serif;
+    font-weight:normal;
+    font-size: 17px;
+    position: absolute;
+    top: 87% ;
+    left: 76%;
+}
