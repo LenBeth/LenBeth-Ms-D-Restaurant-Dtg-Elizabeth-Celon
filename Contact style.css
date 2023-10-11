@@ -99,3 +99,37 @@ h3{
     font-size: 15px;
 }
 
+
+h4{
+    position: absolute;
+    top: 60%;
+    left: 13%;
+    height: 22vh;
+    color: rgb(120, 134, 160);
+    font-family: 'Tajawal';
+    font-size: 15px;
+    font-weight: 800;
+}
+
+h5{
+    position: absolute;
+    top: 60%;
+    left: 39%;
+    height: 22vh;
+    color: rgb(120, 134, 160);
+    font-family: 'Tajawal';
+    font-size: 15px;
+    font-weight: 800;
+}
+
+h6 {
+    position: absolute;
+    top: 60%;
+    left: 73%;
+    height: 22vh;
+    color: rgb(81, 58, 90);
+    font-family: 'Tajawal';
+    font-size: 15px;
+    font-weight: 800;
+}
+
